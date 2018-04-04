@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="component com.abnamro.webapisExternal">
+    <Position X="0.5" Y="0.5" Height="0.333" Width="2.659" />
+  </Comment>
+  <Comment CommentText="com.abnamro.agents&#xD;&#xA;com.abnamro.webapi.core&#xD;&#xA;com.abnamro.webapiclient">
+    <Position X="0.5" Y="0.969" Height="0.656" Width="2.138" />
+  </Comment>
+  <Comment CommentText="Microsoft.AspNet.WebApi.Core&#xD;&#xA;Microsoft.AspNet.WebApi.Client&#xD;&#xA;Owin&#xD;&#xA;Newtonsoft.Json">
+    <Position X="0.51" Y="1.75" Height="0.791" Width="2.096" />
+  </Comment>
+  <Comment CommentText="Controllers">
+    <Position X="0.5" Y="7.354" Height="0.302" Width="0.94" />
+  </Comment>
+  <Class Name="com.abnamro.webapisExternal.HttpConfigurationCreator">
+    <Position X="4" Y="0.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HttpConfigurationCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.WebApiExternalConfigurer">
+    <Position X="2.5" Y="3" Width="7" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebApiExternalConfigurer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.WebApiExternalStarter">
+    <Position X="3.25" Y="1.75" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebApiExternalStarter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.Controllers.DeviceIdentificationController">
+    <Position X="0.5" Y="10.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Controllers\DeviceIdentificationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.Controllers.GroupAvailabilityController">
+    <Position X="0.5" Y="9.25" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\GroupAvailabilityController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.Controllers.EchoController">
+    <Position X="7.25" Y="9.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\EchoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.WebapiConnectionProvider">
+    <Position X="0.5" Y="4.5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="com.abnamro.webapisExternal.WebapiConnectionProvider.ControllerAppSettingsKey">
+        <TypeIdentifier>
+          <NewMemberFileName>WebapiConnectionProvider.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>WebapiConnectionProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.Controllers.UserController">
+    <Position X="5.25" Y="10.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapisExternal.Controllers.AggregatedGroupAvailabilityController">
+    <Position X="0.5" Y="7.75" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AggregatedGroupAvailabilityController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

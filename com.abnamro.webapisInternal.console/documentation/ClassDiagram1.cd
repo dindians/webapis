@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="com.abnamro.webapi.console">
+    <Position X="0.5" Y="0.5" Height="0.323" Width="2.315" />
+  </Comment>
+  <Comment CommentText="Tracing">
+    <Position X="0.5" Y="1.792" Height="0.323" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Microsoft.Owin.Host.HttpListener&#xD;&#xA;NLog.Config&#xD;&#xA;NLog&#xD;&#xA;NLog.Schema&#xD;&#xA;Newtonsoft.Json">
+    <Position X="3.885" Y="0.5" Height="1.176" Width="2.179" />
+  </Comment>
+  <Class Name="com.abnamro.webapi.console.Program" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.webapi.console.Tracing.ConsoleTracer">
+    <Position X="0.5" Y="4" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAACAgAAQAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tracing\ConsoleTracer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.webapi.console.Tracing.NLogTracer">
+    <Position X="4.75" Y="3.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAACAgAAQAAAAAAgBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tracing\NLogTracer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.webapi.console.Tracing.TracerFactory">
+    <Position X="0.5" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Tracing\TracerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF4F6ADB-625C-4C91-A748-494697BB0E6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.abnamro.clientapp.webapiclient</RootNamespace>
+    <AssemblyName>com.abnamro.clientapp.webapiclient</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgentCreator.cs" />
+    <Compile Include="AuthenticationCredentials.cs" />
+    <Compile Include="AuthenticationCredentialsExtensions.cs" />
+    <Compile Include="AuthenticationData.cs" />
+    <Compile Include="AuthenticationResponse.cs" />
+    <Compile Include="BearerToken.cs" />
+    <Compile Include="Clients\AggregatedGroupAvailabilityWebapiClient.cs" />
+    <Compile Include="Clients\AuthenticatorWebapiClient.cs" />
+    <Compile Include="Clients\AccountAvailabilityWebapiClient.cs" />
+    <Compile Include="Clients\AccountsOverviewWebapiClient.cs" />
+    <Compile Include="Clients\CompaniesOverviewWebapiClient.cs" />
+    <Compile Include="Clients\DashboardWebapiClient.cs" />
+    <Compile Include="Clients\DeviceCultureWebapiClient.cs" />
+    <Compile Include="Clients\DeviceDeregistratorWebapiClient.cs" />
+    <Compile Include="Clients\RegistrationStatusSelectorWebapiClient.cs" />
+    <Compile Include="Clients\DeviceRegistratorWebapiClient.cs" />
+    <Compile Include="Clients\IEmailaddressValidation.cs" />
+    <Compile Include="Clients\DeviceUserWebapiClient.cs" />
+    <Compile Include="Clients\EchoWebapiClient.cs" />
+    <Compile Include="Clients\DeviceRegistrationRequestorWebapiClient.cs" />
+    <Compile Include="Clients\UserAuthenticatorWebapiClient.cs" />
+    <Compile Include="Clients\EmailaddressValidationWebapiClient.cs" />
+    <Compile Include="Clients\WebapiClient.cs" />
+    <Compile Include="DelayedContinuation.cs" />
+    <Compile Include="HttpClientExtensions.cs" />
+    <Compile Include="HttpContentComposer.cs" />
+    <Compile Include="IAuthenticator.cs" />
+    <Compile Include="IDeviceCultureAgent.cs" />
+    <Compile Include="IDeviceRegistration.cs" />
+    <Compile Include="IEchoAgent.cs" />
+    <Compile Include="IWebapiConnectionInfo.cs" />
+    <Compile Include="IWebapiContext.cs" />
+    <Compile Include="NoResponseException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseNotSuccessfulException.cs" />
+    <Compile Include="Webapi.cs" />
+    <Compile Include="WebapiConnectionInfo.cs" />
+    <Compile Include="WebapiConnectionInfoCreator.cs" />
+    <Compile Include="WebapiContext.cs" />
+    <Compile Include="WebapiException.cs" />
+    <Compile Include="WebapiExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\webapis\packages\Newtonsoft.Json.11.0.2\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\webapis\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="documentation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\webapis\com.abnamro.core\com.abnamro.core.csproj">
+      <Project>{B9C5954B-93BC-4B3C-A022-67B673F4E577}</Project>
+      <Name>com.abnamro.core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\com.abnamro.agents\com.abnamro.agents.csproj">
+      <Project>{D2EA618A-DAC0-4C07-838A-4A4C06B270E7}</Project>
+      <Name>com.abnamro.agents</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="biz.Actors (internal)">
+    <Position X="0.5" Y="5.105" Height="0.291" Width="1.335" />
+  </Comment>
+  <Comment CommentText="agents">
+    <Position X="0.5" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="biz (public)">
+    <Position X="0.5" Y="1.955" Height="0.291" Width="0.888" />
+  </Comment>
+  <Comment CommentText="biz (internal)">
+    <Position X="0.5" Y="3.47" Height="0.291" Width="0.96" />
+  </Comment>
+  <Class Name="com.abnamro.biz.Actors.ClientAccountsOverviewSelector" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\ClientAccountsOverviewSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.CompaniesOverviewSelector" Collapsed="true">
+    <Position X="6" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\CompaniesOverviewSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DeviceDeregistrator" Collapsed="true">
+    <Position X="3" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAAAAAAAQAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\DeviceDeregistrator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DeviceRegistrationRequestor" Collapsed="true">
+    <Position X="3" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAMAAgIAQAAAAAAAAFAAAAAACAA=</HashCode>
+      <FileName>Actors\DeviceRegistrationRequestor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DeviceRegistrationStatusSelector" Collapsed="true">
+    <Position X="3" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\DeviceRegistrationStatusSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DeviceRegistrator" Collapsed="true">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\DeviceRegistrator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.RegistrationcodeSelector" Collapsed="true">
+    <Position X="3" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\RegistrationcodeSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.UserAuthenticator" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\UserAuthenticator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.UserEmailaddressSelector" Collapsed="true">
+    <Position X="3" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\UserEmailaddressSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.UserHashedPasswordSelector" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAE=</HashCode>
+      <FileName>Actors\UserHashedPasswordSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DeviceUserSelector" Collapsed="true">
+    <Position X="1" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAABABAAAAAAA=</HashCode>
+      <FileName>Actors\DeviceUserSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DeviceLogonAgent" Collapsed="true">
+    <Position X="1" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAQAAICAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\DeviceLogonAgent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DeviceAuthenticator" Collapsed="true">
+    <Position X="1" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\DeviceAuthenticator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.ClientAccountAvailabilitySelector" Collapsed="true">
+    <Position X="5.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Actors\ClientAccountAvailabilitySelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.BizActors" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>BAEABBAAAAAAEBQAADAAAAABAAAAEgAAIACAAAEAGIA=</HashCode>
+      <FileName>BizActors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.CurrencyConversionRatesSelector" Collapsed="true">
+    <Position X="5.75" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Actors\CurrencyConversionRatesSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.GroupAvailabilitySelector" Collapsed="true">
+    <Position X="6.25" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Actors\GroupAvailabilitySelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.PendingPaymentsSelector" Collapsed="true">
+    <Position X="11" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAA=</HashCode>
+      <FileName>Actors\PendingPaymentsSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.AggregatedGroupAvailabilityComposer" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AACCCAAAEAQAAAAQAAAAAIAEgAQAAiAAQFIIAgABAAE=</HashCode>
+      <FileName>Actors\AggregatedGroupAvailabilityComposer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.DashboardComposer" Collapsed="true">
+    <Position X="9.75" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AACCCAAAEAQAAAAQIAAAAIAEgAAAACAAQFAAAAABAAE=</HashCode>
+      <FileName>Actors\DashboardComposer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.GroupAvailabilityFromAmtComposer" Collapsed="true">
+    <Position X="9" Y="7.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAIQAgAQAAgAAQFIAAgABAAA=</HashCode>
+      <FileName>Actors\GroupAvailabilityFromAmtComposer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.abnamro.biz.Actors.GroupAvailabilityApprovedSelector" Collapsed="true">
+    <Position X="10.25" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAQA=</HashCode>
+      <FileName>Actors\GroupAvailabilityApprovedSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="com.abnamro.agents.IDeviceRegistrationStatusSelector" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="com.abnamro.biz.IUserAuthenticator" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUserAuthenticator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IDeviceRegistrator" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDeviceRegistrator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IUserHashedPasswordSelector" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUserHashedPasswordSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.agents.IDeviceRegistrationRequestor" Collapsed="true">
+    <Position X="1.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="com.abnamro.agents.IDeviceDeregistrator" Collapsed="true">
+    <Position X="3.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="com.abnamro.biz.IUserEmailaddressSelector" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUserEmailaddressSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IRegistrationcodeSelector" Collapsed="true">
+    <Position X="5.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRegistrationcodeSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IClientAccountsOverviewSelector" Collapsed="true">
+    <Position X="8" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IClientAccountsOverviewSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.ICompaniesOverviewSelector" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICompaniesOverviewSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IDeviceAuthenticator" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>IDeviceAuthenticator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IDeviceLogonAgent" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>IDeviceLogonAgent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IDeviceUserSelector" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>IDeviceUserSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.agents.IAccountAvailabilityAgent" Collapsed="true">
+    <Position X="6" Y="0.75" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="com.abnamro.biz.ICurrencyConversionRatesSelector" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICurrencyConversionRatesSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IGroupAvailabilitySelector" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGroupAvailabilitySelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IPendingPaymentsSelector" Collapsed="true">
+    <Position X="1.75" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>IPendingPaymentsSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.agents.IDashboardService" Collapsed="true">
+    <Position X="8.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="com.abnamro.agents.IAggregatedGroupAvailabilityAgent" Collapsed="true">
+    <Position X="10.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="com.abnamro.biz.IGroupAvailabilityFromAmtAgent" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>IGroupAvailabilityFromAmtAgent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.abnamro.biz.IGroupAvailabilityApprovedSelector" Collapsed="true">
+    <Position X="9" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGroupAvailabilityApprovedSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
